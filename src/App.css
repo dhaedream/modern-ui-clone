@@ -7,3 +7,51 @@
 body {
   background: var(--color-bg);
 }
+a {
+  color: unset;
+  text-decoration: none;
+}
+.gradient__bg {
+   {
+    /* from angrytools.com/gradient */
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(
+      ellipse at 3% 39%,
+      rgba(76, 86, 187, 1) 0%,
+      rgba(36, 34, 123, 1) 52%,
+      rgba(0, 0, 0, 1) 100%
+    );
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(
+      ellipse at 3% 39%,
+      rgba(76, 86, 187, 1) 0%,
+      rgba(36, 34, 123, 1) 52%,
+      rgba(0, 0, 0, 1) 100%
+    );
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(
+      ellipse at 3% 39%,
+      rgba(76, 86, 187, 1) 0%,
+      rgba(36, 34, 123, 1) 52%,
+      rgba(0, 0, 0, 1) 100%
+    );
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(
+      ellipse at 3% 39%,
+      rgba(76, 86, 187, 1) 0%,
+      rgba(36, 34, 123, 1) 52%,
+      rgba(0, 0, 0, 1) 100%
+    );
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(
+      ellipse at 3% 39%,
+      rgba(76, 86, 187, 1) 0%,
+      rgba(36, 34, 123, 1) 52%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+}
