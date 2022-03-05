@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
+import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
   return (
-    <div>
-      <h1>React is cool</h1>
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+      </div>
     </div>
   );
 };
