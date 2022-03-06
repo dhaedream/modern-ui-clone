@@ -6,6 +6,7 @@ import {
   Footer,
   Blog,
   Possibilities,
+  Features,
   WhatGPT3,
   Header,
 } from "./container/index.js";
