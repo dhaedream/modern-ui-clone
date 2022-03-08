@@ -26,9 +26,9 @@ const Header = () => {
           <p>10000 people requested access from 20 countries!</p>
         </div>
       </div>
-      {/* <div className="gpt3__header-image">
+      <div className="gpt3__header-image">
         <img src={ai} alt="ai" />
-      </div> */}
+      </div>
     </div>
   );
 };
