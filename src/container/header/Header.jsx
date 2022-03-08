@@ -10,7 +10,7 @@ const Header = () => {
         <h1 className="gradient__text">
           Let's Build Something amazing with GPT-3 OpenAI
         </h1>
-        <p style={{ color: "white" }}>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
           mollitia, molestiae quas vel sint commodi repudiandae consequuntur
           voluptatum laborum numquam blanditiis harum quisquam eius sed odit
@@ -26,9 +26,9 @@ const Header = () => {
           <p>10000 people requested access from 20 countries!</p>
         </div>
       </div>
-      <div className="gpt3__header-image">
+      {/* <div className="gpt3__header-image">
         <img src={ai} alt="ai" />
-      </div>
+      </div> */}
     </div>
   );
 };
