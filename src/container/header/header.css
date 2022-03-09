@@ -97,11 +97,22 @@
   }
 }
 
-/* @media screen and (max-width: 1050px) {
-    .gpt3__header {
-      flex-direction: row;
-    }
-    .gpt3__header-content {
-        margin: 0 0 3rem;
-    }
-  } */
+@media screen and (max-width: 950px) {
+  .gpt3__header {
+    flex-direction: column;
+  }
+  .gpt3__header h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .gpt3__header p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .gpt3__header-content__people {
+    flex-direction: column;
+  }
+  .gpt3__header-content__people p {
+    margin: 0;
+  }
+}
