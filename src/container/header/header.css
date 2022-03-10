@@ -97,7 +97,7 @@
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 750px) {
   .gpt3__header {
     flex-direction: column;
   }
@@ -120,10 +120,26 @@
     font-size: 16px;
     line-height: 24px;
   }
+  .gpt3__header-image img {
+    margin-left: 10vw;
+  }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 490px) {
   .gpt3__header h1 {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 48px;
+  }
+  .gpt3__header p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .gpt3__header-content__input input,
+  .gpt3__header-content__input button {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .gpt3__header-image img {
+    width: 140%;
+    height: auto;
   }
 }
