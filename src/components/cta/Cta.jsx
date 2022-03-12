@@ -9,7 +9,7 @@ const Cta = () => {
         <h3>Register today & start exploring the possibilities.</h3>
       </div>
 
-      <div className="gpts__cta-btn">
+      <div className="gpt3__cta-btn">
         <button type="button">Get Started</button>
       </div>
     </div>
