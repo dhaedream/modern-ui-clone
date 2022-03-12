@@ -1,1 +1,23 @@
-
+.gpt3__features {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gpt3__features-heading {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin-right: 5rem;
+}
+/* .gpt3__features-container__feature {
+  display: flex;
+  flex-direction: column;
+} */
+.gpt3__features-container__feature {
+  display: flex;
+  flex-direction: row;
+}
