@@ -1,7 +1,7 @@
 .gpt3__features {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 .gpt3__features-heading {
@@ -12,12 +12,19 @@
   align-items: flex-start;
   text-align: left;
   margin-right: 5rem;
+  width: 50%;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
 }
+.gpt3__features-container__feature {
+  justify-content: flex-start;
+}
+/* gpt3__features-container__feature */
 /* .gpt3__features-container__feature {
   display: flex;
   flex-direction: column;
 } */
-.gpt3__features-container__feature {
+/* .gpt3__features-container__feature {
   display: flex;
   flex-direction: row;
-}
+} */
