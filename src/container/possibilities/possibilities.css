@@ -21,6 +21,7 @@
   align-items: flex-start;
 }
 .gpt3__possibilities-content h4 {
+  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
@@ -28,8 +29,21 @@
 }
 /* same tag name. differnt design n this is how yu pick on children */
 .gpt3__possibilities-content h4:last-child {
+  color: #ff8a71;
 }
 .gpt3__possibilities-content h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  margin: 1rem 0;
 }
 .gpt3__possibilities-content p {
+  font-family: var(--font-family);
+
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-text);
+  margin-bottom: 2rem;
 }
