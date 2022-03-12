@@ -19,12 +19,15 @@
 .gpt3__features-container__feature {
   justify-content: flex-start;
 }
-/* gpt3__features-container__feature */
-/* .gpt3__features-container__feature {
-  display: flex;
-  flex-direction: column;
-} */
-/* .gpt3__features-container__feature {
-  display: flex;
-  flex-direction: row;
-} */
+@media screen and (max-width: 990px) {
+  .gpt3__features {
+    flex-direction: column;
+  }
+  /* .gpt3__features h1 {
+    font-size: 50px;
+  } */
+  .gpt3__features-heading {
+    margin: 0 0 2rem 0;
+    width: 100%;
+  }
+}
