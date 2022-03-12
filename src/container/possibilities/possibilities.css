@@ -47,3 +47,17 @@
   color: var(--color-text);
   margin-bottom: 2rem;
 }
+@media screen and (max-width: 950px) {
+  .gpt3__possibilities {
+    flex-direction: column;
+  }
+  .gpt3__possibilities-image {
+    margin: 1rem 0;
+  }
+  .gpt3__possibilities-content {
+    margin: 1rem 0;
+  }
+  .gpt3__possibilities-content h1 {
+    font-size: 30px;
+  }
+}
