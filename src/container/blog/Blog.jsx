@@ -1,4 +1,5 @@
 import React from "react";
+import { Article } from "../../components";
 import "./blog.css";
 
 const Blog = () => {
@@ -10,8 +11,15 @@ const Blog = () => {
         </h1>
       </div>
       <div className="gpt3__blog-container">
-        <div className="gpt3__blog-container_groupA"></div>
-        <div className="gpt3__blog-container_groupB"></div>
+        <div className="gpt3__blog-container_groupA">
+          <Article />
+        </div>
+        <div className="gpt3__blog-container_groupB">
+          <Article />
+          <Article />
+          <Article />
+          <Article />
+        </div>
       </div>
     </div>
   );
