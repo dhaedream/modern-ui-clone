@@ -99,12 +99,21 @@
 }
 
 @media screen and (max-width: 850px) {
+  .gpt3__whatgpt3 {
+    max-width: 95vw;
+    margin: 0 auto;
+  }
   .gpt3__whatgpt3-heading {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 0rem;
   }
-
+  .gpt3__whatgpt3-container {
+    width: auto;
+  }
+  .gpt3__features-container__feature {
+    max-width: none;
+  }
   .gpt3__whatgpt3-heading p {
     margin-top: 1rem;
   }
