@@ -1,23 +1,22 @@
-/* .gpt3__footer {
+.gpt3__footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background: var(--color-footer);
-  padding-top: 15vh;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  color: #fff;
 }
-
 .gpt3__footer-heading {
   width: 100%;
   text-align: center;
-
   margin-bottom: 3rem;
 }
-
 .gpt3__footer-heading h1 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 64px;
+  font-size: 54px;
   line-height: 75px;
 }
 .gpt3__footer-btn {
@@ -27,12 +26,12 @@
   padding: 1rem;
   border: 1px solid #fff;
   text-align: center;
-  margin-bottom: 7rem;
+  margin-bottom: 2rem;
   margin-top: 2rem;
   cursor: pointer;
 }
 .gpt3__footer-btn p {
-  font-size: 18px;
+  font-size: 16px;
   font-family: var(--font-family);
   line-height: 21px;
   color: #fff;
@@ -42,7 +41,7 @@
   display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-between;
+  margin: 2rem 0;
 }
 .gpt3__footer-links {
   display: flex;
@@ -50,15 +49,23 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
   text-align: left;
 }
-
+.gpt3__footer-links p {
+  cursor: pointer;
+  margin: 0.5rem 0;
+}
 .gpt3__footer-links div {
   min-width: 250px;
   margin: 1rem 0;
 }
-
+.gpt3__footer-links_div h4 {
+  font-size: 16px;
+  line-height: 17px;
+  font-family: var(--font-family);
+  color: #fff;
+  margin-bottom: 0.9rem;
+}
 .gpt3__footer-links_logo {
   display: flex;
   flex-direction: column;
@@ -68,45 +75,7 @@
   height: 30px;
   margin-bottom: 1rem;
 }
-.gpt3__footer-links_logo p {
-  font-family: var(--font-family);
-  font-size: 12px;
-  line-height: 15px;
-  color: #fff;
-}
-.gpt3__footer-links_div {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-.gpt3__footer-links_div h4 {
-  font-size: 14px;
-  line-height: 17px;
-  font-family: var(--font-family);
-  color: #fff;
-  margin-bottom: 0.9rem;
-}
-.gpt3__footer-links_div p {
-  font-size: 12px;
-  line-height: 15px;
-  font-family: var(--font-family);
-  color: #fff;
-  margin: 0.5rem 0;
-  cursor: pointer;
-}
-
-.gpt3__footer-copyright {
-  margin-top: 2rem;
-  text-align: center;
-  width: 100%;
-}
-
-.gpt3__footer-copyright p {
-  font-size: 12px;
-  font-family: var(--font-family);
-  line-height: 15px;
-  color: #fff;
-}
+/* git add 
 
 @media screen and (max-width: 850px) {
   .gpt3__footer-heading h1 {
