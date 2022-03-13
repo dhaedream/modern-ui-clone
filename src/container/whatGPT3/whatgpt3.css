@@ -42,7 +42,7 @@
     rgba(36, 34, 123, 1) 52%,
     rgba(4, 12, 24, 1) 100%
   );
-  filter: drop-shadow(0 0.2rem 0.25rem rgba(78, 78, 78, 0.295));
+  /* filter: drop-shadow(0 0.2rem 0.25rem rgba(78, 78, 78, 0.295)); */
 }
 .gpt3__whatgpt3-feature {
   display: flex;
@@ -109,10 +109,13 @@
     margin-bottom: 0rem;
   }
   .gpt3__whatgpt3-container {
-    width: auto;
+    max-width: 80%;
   }
-  .gpt3__features-container__feature {
+  /* .gpt3__features-container__feature {
     max-width: none;
+  } */
+  .gpt3__features-container__feature-text::after {
+    max-width: 25%;
   }
   .gpt3__whatgpt3-heading p {
     margin-top: 1rem;
@@ -122,6 +125,8 @@
 @media screen and (max-width: 650px) {
   /* Customizing feature component as per needs */
   .gpt3__whatgpt3-feature .gpt3__features-container__feature {
+    margin: 0 auto;
+
     flex-direction: column;
   }
 
@@ -139,7 +144,8 @@
 @media screen and (max-width: 350px) {
   /* Customizing feature component as per needs */
   .gpt3__whatgpt3-container .gpt3__features-container__feature {
-    margin: 1rem 0;
-    min-width: 100%;
+    /* margin: 1rem 0; */
+    margin: 0 auto;
+    max-width: 100%;
   }
 }

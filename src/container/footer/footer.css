@@ -94,6 +94,33 @@
     margin: 1rem 0;
   }
 }
+@media screen and (max-width: 550px) {
+  .gpt3__footer-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .gpt3__footer-links div {
+    margin: 1rem 0;
+  }
+
+  .gpt3__footer-btn p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .gpt3__blog-link_container {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gpt3__footer-heading h1 {
+    font-size: 27px;
+    line-height: 38px;
+  }
+}
 /* git add 
 
 @media screen and (max-width: 850px) {
